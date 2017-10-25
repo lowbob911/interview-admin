@@ -25,7 +25,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
-    ADDRESS = 'ws://localhost:'
+    ENV.ADDRESS = 'ws://localhost:'
   }
 
   if (environment === 'test') {
@@ -40,7 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-    ADDRESS = 'ws://192.168.16.1:'
+    ENV.ADDRESS = 'ws://192.168.16.1:'
   }
 
   return ENV;
