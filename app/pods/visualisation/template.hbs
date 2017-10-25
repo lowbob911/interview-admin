@@ -1,0 +1,7 @@
+
+      {{#if model.pie}}
+        {{pie-chart data=model.stats options=model.options}}
+      {{else}}
+        {{bar-chart data=model.stats options=options}}
+      {{/if}}
+

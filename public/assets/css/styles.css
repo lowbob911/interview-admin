@@ -1,0 +1,25 @@
+.vertical-center {
+  height: 900px;
+  width: 1800px;
+  align-items: center;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.window-border{
+  border-width: 15px;
+  border-color: #2e6da4;
+  border-style: groove;
+}
+
+.main-container{
+  display: flex;
+  align-items: center;
+  min-height: 99vh;
+}
+
+.window-text{
+  color: #d43f3a;
+  font-weight: bold;
+  font-size: 16px;
+}

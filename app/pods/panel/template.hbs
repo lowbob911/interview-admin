@@ -1,0 +1,15 @@
+Questions count: {{input type="text" value=model.count maxlength="255"}}
+<button type="button" {{action "setup" model.count}}>
+  Setup
+</button><br />
+{{#each model.questions as |question index|}}
+ {{index}}. {{input type="text" value=question.text maxlength="255"}}<br />
+{{/each}}
+
+  <button type="button" {{action "send" model.questions}}>
+    Send
+  </button><br />
+
+<button type="button" {{action "create"}}>
+  Create
+</button><br />
